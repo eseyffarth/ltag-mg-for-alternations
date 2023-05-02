@@ -1,0 +1,1382 @@
+<type_info>
+  <hierarchy>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="agentive_manner_of_motion"/>
+        <type val="dancing"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="agentive_manner_of_motion"/>
+        <type val="dancing"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="agentive_manner_of_motion"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="jumping"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="agentive_manner_of_motion"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="jumping"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="agentive_manner_of_motion"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="agentive_manner_of_motion"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="dancing"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="dancing"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="jumping"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="jumping"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="laughing"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="intransitive_action"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="pushing"/>
+        <type val="simple_event"/>
+        <type val="transitive_action"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="simple_event"/>
+        <type val="transitive_action"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="activity"/>
+        <type val="event"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="agent"/>
+          </path>
+          <type val="@1"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="@2"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="actor"/>
+          </path>
+          <type val="entity"/>
+          <val val="@0"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="animal"/>
+        <type val="animate"/>
+        <type val="entity"/>
+        <type val="horse"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="animal"/>
+        <type val="animate"/>
+        <type val="entity"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="animate"/>
+        <type val="entity"/>
+        <type val="person"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="animate"/>
+        <type val="entity"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="causation"/>
+        <type val="complex_event"/>
+        <type val="event"/>
+        <type val="inserting"/>
+      </ctype>
+      <constraints>
+        <constraint>
+          <path>
+            <attr val="cause"/>
+          </path>
+          <type val="transitive_action"/>
+          <val val="@0"/>
+        </constraint>
+        <constraint>
+          <path>
+            <attr val="effect"/>
+          </path>
+          <type val="translocation"/>
+          <val val="@1"/>
+        </constraint>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="causation"/>
+        <type val="complex_event"/>
+        <type val="event"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="complex_event"/>
+        <type val="event"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="entity"/>
+        <type val="fence"/>
+        <type val="inanimate"/>
+        <type val="physical_object"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="entity"/>
+        <type val="inanimate"/>
+        <type val="key"/>
+        <type val="physical_object"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="entity"/>
+        <type val="inanimate"/>
+        <type val="lock"/>
+        <type val="physical_object"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="entity"/>
+        <type val="inanimate"/>
+        <type val="physical_object"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="entity"/>
+        <type val="inanimate"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="entity"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="event"/>
+        <type val="simple_event"/>
+        <type val="translocation"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="event"/>
+        <type val="simple_event"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="event"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+        <type val="path"/>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+    <entry>
+      <ctype>
+      </ctype>
+      <constraints>
+      </constraints>
+    </entry>
+  </hierarchy>
+  <type_constraints>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="fence"/>
+          <type val="lock"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="lock"/>
+          <type val="key"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="fence"/>
+          <type val="key"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="lock"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="physical_object"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="key"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="physical_object"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="fence"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="physical_object"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="horse"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="animal"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="pushing"/>
+          <type val="intransitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="dancing"/>
+          <type val="transitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="jumping"/>
+          <type val="transitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="laughing"/>
+          <type val="transitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="laughing"/>
+          <type val="translocation"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="laughing"/>
+          <type val="agentive_manner_of_motion"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="jumping"/>
+          <type val="dancing"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="laughing"/>
+          <type val="jumping"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="laughing"/>
+          <type val="dancing"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="pushing"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="transitive_action"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="inserting"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="causation"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="dancing"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="intransitive_action"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="jumping"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="intransitive_action"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="laughing"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="intransitive_action"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="agentive_manner_of_motion"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="intransitive_action"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="translocation"/>
+          <type val="transitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="translocation"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="simple_event"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="path"/>
+          <type val="entity"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="path"/>
+          <type val="event"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="animal"/>
+          <type val="person"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="animal"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="animate"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="animate"/>
+          <type val="inanimate"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="physical_object"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="inanimate"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="inanimate"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="entity"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="person"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="animate"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="animate"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="entity"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="intransitive_action"/>
+          <type val="transitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="transitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="intransitive_action"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="causation"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="complex_event"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="simple_event"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="simple_event"/>
+          <type val="complex_event"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="complex_event"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="event"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="simple_event"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="event"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="event"/>
+          <type val="entity"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <ctype>
+          <type val="false"/>
+        </ctype>
+      </consequent>
+    </type_constraint>
+    <type_to_path_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="agent"/>
+        </path>
+        <path>
+          <attr val="actor"/>
+        </path>
+      </consequent>
+    </type_to_path_constraint>
+    <type_to_attr_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="inserting"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="effect"/>
+        </path>
+        <ctype>
+          <type val="translocation"/>
+        </ctype>
+      </consequent>
+    </type_to_attr_constraint>
+    <type_to_attr_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="inserting"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="cause"/>
+        </path>
+        <ctype>
+          <type val="transitive_action"/>
+        </ctype>
+      </consequent>
+    </type_to_attr_constraint>
+    <type_to_attr_constraint type="implies">
+      <antecedent>
+        <ctype>
+          <type val="activity"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="actor"/>
+        </path>
+        <ctype>
+          <type val="entity"/>
+        </ctype>
+      </consequent>
+    </type_to_attr_constraint>
+    <attr_to_path_constraint type="implies">
+      <antecedent>
+        <path>
+          <attr val="effect"/>
+          <attr val="undergoer"/>
+        </path>
+        <ctype>
+          <type val="@0"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="effect"/>
+          <attr val="undergoer"/>
+        </path>
+        <path>
+          <attr val="undergoer"/>
+        </path>
+      </consequent>
+    </attr_to_path_constraint>
+    <attr_to_path_constraint type="implies">
+      <antecedent>
+        <path>
+          <attr val="cause"/>
+          <attr val="actor"/>
+        </path>
+        <ctype>
+          <type val="@0"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="cause"/>
+          <attr val="actor"/>
+        </path>
+        <path>
+          <attr val="actor"/>
+        </path>
+      </consequent>
+    </attr_to_path_constraint>
+    <attr_to_path_constraint type="implies">
+      <antecedent>
+        <path>
+          <attr val="agent"/>
+        </path>
+        <ctype>
+          <type val="@0"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="agent"/>
+        </path>
+        <path>
+          <attr val="actor"/>
+        </path>
+      </consequent>
+    </attr_to_path_constraint>
+    <attr_to_attr_constraint type="implies">
+      <antecedent>
+        <path>
+          <attr val="agent"/>
+        </path>
+        <ctype>
+          <type val="@0"/>
+        </ctype>
+      </antecedent>
+      <consequent>
+        <path>
+          <attr val="agent"/>
+        </path>
+        <ctype>
+          <type val="animate"/>
+        </ctype>
+      </consequent>
+    </attr_to_attr_constraint>
+  </type_constraints>
+</type_info>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE grammar SYSTEM "tulipa-parses.dtd,xml">
+<grammar>
+  <entry name="Queequeg breaks the hammer_0_derivedTree">
+    <trace>
+      <class>Propernoun_57--Queequeg1--0</class>
+      <class>Determiner_55--the3--0</class>
+      <class>Commonnoun_56--hammer4--0</class>
+      <class>RegularVerbFamily_5--breaks2--5</class>
+    </trace>
+    <family/>
+    <tree>
+      <node type="std">
+        <narg>
+          <fs>
+            <f name="cat">
+              <sym value="s"/>
+            </f>
+          </fs>
+        </narg>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="np"/>
+              </f>
+              <f name="i">
+                <sym varname="C0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs coref="A0">
+                <ctype/>
+                <f name="cat">
+                  <sym value="n"/>
+                </f>
+                <f name="i">
+                  <sym varname="C0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="lex" value="Queequeg">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="Queequeg"/>
+                  </f>
+                </fs>
+              </narg>
+            </node>
+          </node>
+        </node>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="vp"/>
+              </f>
+              <f name="e">
+                <sym varname="G0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs coref="K0">
+                <ctype/>
+                <f name="cat">
+                  <sym value="v"/>
+                </f>
+                <f name="e">
+                  <sym varname="E0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="lex" value="breaks">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="breaks"/>
+                  </f>
+                </fs>
+              </narg>
+            </node>
+          </node>
+          <node type="std">
+            <narg>
+              <fs>
+                <f name="cat">
+                  <sym value="np"/>
+                </f>
+                <f name="i">
+                  <sym varname="B0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="std">
+              <narg>
+                <fs coref="I0">
+                  <ctype/>
+                  <f name="cat">
+                    <sym value="det"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="lex" value="the">
+                <narg>
+                  <fs>
+                    <f name="cat">
+                      <sym value="the"/>
+                    </f>
+                  </fs>
+                </narg>
+              </node>
+            </node>
+            <node type="std">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="np"/>
+                  </f>
+                  <f name="i">
+                    <sym varname="B0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="std">
+                <narg>
+                  <fs coref="J0">
+                    <ctype/>
+                    <f name="cat">
+                      <sym value="n"/>
+                    </f>
+                    <f name="i">
+                      <sym varname="B0"/>
+                    </f>
+                  </fs>
+                </narg>
+                <node type="lex" value="hammer">
+                  <narg>
+                    <fs>
+                      <f name="cat">
+                        <sym value="hammer"/>
+                      </f>
+                    </fs>
+                  </narg>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </tree>
+    <frame>
+      <fs coref="G0">
+        <ctype>
+          <type val="causation"/>
+          <type val="complex_event"/>
+          <type val="event"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="C0">
+            <ctype>
+              <type val="person"/>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+            <f name="name">
+              <sym value="Queequeg"/>
+            </f>
+          </fs>
+        </f>
+        <f name="cause">
+          <fs coref="F0">
+            <ctype>
+              <type val="activity"/>
+              <type val="simple_event"/>
+              <type val="event"/>
+            </ctype>
+            <f name="actor">
+              <sym varname="C0"/>
+            </f>
+            <f name="agent">
+              <sym varname="C0"/>
+            </f>
+            <f name="theme">
+              <sym varname="B0"/>
+            </f>
+            <f name="undergoer">
+              <sym varname="B0"/>
+            </f>
+          </fs>
+        </f>
+        <f name="effect">
+          <fs coref="E0">
+            <ctype>
+              <type val="becoming_broken"/>
+              <type val="simple_event"/>
+              <type val="event"/>
+              <type val="change_of_state"/>
+            </ctype>
+            <f name="result">
+              <fs coref="D0">
+                <ctype>
+                  <type val="being_broken"/>
+                  <type val="state"/>
+                </ctype>
+                <f name="theme">
+                  <sym varname="B0"/>
+                </f>
+              </fs>
+            </f>
+            <f name="theme">
+              <sym varname="B0"/>
+            </f>
+            <f name="undergoer">
+              <sym varname="B0"/>
+            </f>
+          </fs>
+        </f>
+        <f name="undergoer">
+          <fs coref="B0">
+            <ctype>
+              <type val="inedible"/>
+              <type val="physical_object"/>
+              <type val="inanimate"/>
+              <type val="solid"/>
+              <type val="hammer"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+  </entry>
+</grammar>

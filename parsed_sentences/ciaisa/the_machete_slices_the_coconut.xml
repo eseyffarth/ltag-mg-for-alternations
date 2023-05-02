@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE grammar SYSTEM "tulipa-parses.dtd,xml">
+<grammar>
+  <entry name="the machete slices the coconut_0_derivedTree">
+    <trace>
+      <class>Determiner_32--the1--0</class>
+      <class>Commonnoun_33--machete2--0</class>
+      <class>Determiner_32--the4--0</class>
+      <class>Commonnoun_33--coconut5--0</class>
+      <class>RegularTransitiveVerbFamily_10--slices3--3</class>
+    </trace>
+    <family/>
+    <tree>
+      <node type="std">
+        <narg>
+          <fs>
+            <f name="cat">
+              <sym value="s"/>
+            </f>
+          </fs>
+        </narg>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="np"/>
+              </f>
+              <f name="i">
+                <sym varname="E0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs coref="G0">
+                <ctype/>
+                <f name="cat">
+                  <sym value="det"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="lex" value="the">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="the"/>
+                  </f>
+                </fs>
+              </narg>
+            </node>
+          </node>
+          <node type="std">
+            <narg>
+              <fs>
+                <f name="cat">
+                  <sym value="np"/>
+                </f>
+                <f name="i">
+                  <sym varname="E0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="std">
+              <narg>
+                <fs coref="K0">
+                  <ctype/>
+                  <f name="cat">
+                    <sym value="n"/>
+                  </f>
+                  <f name="i">
+                    <sym varname="E0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="lex" value="machete">
+                <narg>
+                  <fs>
+                    <f name="cat">
+                      <sym value="machete"/>
+                    </f>
+                  </fs>
+                </narg>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="vp"/>
+              </f>
+              <f name="e">
+                <sym varname="F0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs coref="C0">
+                <ctype/>
+                <f name="cat">
+                  <sym value="v"/>
+                </f>
+                <f name="e">
+                  <sym varname="F0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="lex" value="slices">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="slices"/>
+                  </f>
+                </fs>
+              </narg>
+            </node>
+          </node>
+          <node type="std">
+            <narg>
+              <fs>
+                <f name="cat">
+                  <sym value="np"/>
+                </f>
+                <f name="i">
+                  <sym varname="A0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="std">
+              <narg>
+                <fs coref="G0">
+                  <ctype/>
+                  <f name="cat">
+                    <sym value="det"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="lex" value="the">
+                <narg>
+                  <fs>
+                    <f name="cat">
+                      <sym value="the"/>
+                    </f>
+                  </fs>
+                </narg>
+              </node>
+            </node>
+            <node type="std">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="np"/>
+                  </f>
+                  <f name="i">
+                    <sym varname="A0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="std">
+                <narg>
+                  <fs coref="J0">
+                    <ctype/>
+                    <f name="cat">
+                      <sym value="n"/>
+                    </f>
+                    <f name="i">
+                      <sym varname="A0"/>
+                    </f>
+                  </fs>
+                </narg>
+                <node type="lex" value="coconut">
+                  <narg>
+                    <fs>
+                      <f name="cat">
+                        <sym value="coconut"/>
+                      </f>
+                    </fs>
+                  </narg>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </tree>
+    <frame>
+      <fs coref="F0">
+        <ctype>
+          <type val="slicing"/>
+          <type val="causation"/>
+          <type val="complex_event"/>
+          <type val="event"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="E0">
+            <ctype>
+              <type val="inedible"/>
+              <type val="physical_object"/>
+              <type val="inanimate"/>
+              <type val="sharp_object"/>
+              <type val="autonomous"/>
+              <type val="machete"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="cause">
+          <fs coref="B0">
+            <ctype>
+              <type val="event"/>
+            </ctype>
+            <f name="actor">
+              <sym varname="E0"/>
+            </f>
+            <f name="instrument">
+              <sym varname="E0"/>
+            </f>
+            <f name="theme">
+              <sym varname="A0"/>
+            </f>
+            <f name="undergoer">
+              <sym varname="A0"/>
+            </f>
+          </fs>
+        </f>
+        <f name="effect">
+          <fs coref="D0">
+            <ctype>
+              <type val="simple_event"/>
+              <type val="event"/>
+              <type val="change_of_state"/>
+            </ctype>
+            <f name="result">
+              <fs coref="I0">
+                <ctype>
+                  <type val="state"/>
+                  <type val="being_sliced"/>
+                </ctype>
+                <f name="theme">
+                  <sym varname="A0"/>
+                </f>
+              </fs>
+            </f>
+            <f name="theme">
+              <sym varname="A0"/>
+            </f>
+            <f name="undergoer">
+              <sym varname="A0"/>
+            </f>
+          </fs>
+        </f>
+        <f name="undergoer">
+          <fs coref="A0">
+            <ctype>
+              <type val="physical_object"/>
+              <type val="inanimate"/>
+              <type val="solid"/>
+              <type val="edible"/>
+              <type val="entity"/>
+              <type val="coconut"/>
+            </ctype>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+  </entry>
+</grammar>

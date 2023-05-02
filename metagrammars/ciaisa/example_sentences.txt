@@ -1,0 +1,48 @@
+the window slices the coconut
+the window breaks with the hammer
+the window breaks
+the spoon slices the coconut
+the spoon empties the bucket
+the spoon empties
+the spoon eats the soup
+the spoon eats
+the soup slices the coconut
+the soup empties
+the soup eats
+the soup breaks
+the pump empties the bucket
+the machete slices the coconut
+the machete slices
+the machete empties
+the machete breaks
+the hammer slices the coconut
+the hammer breaks the window
+the hammer breaks the bucket with the hammer
+the hammer breaks
+the coconut slices
+the bucket empties
+the bucket breaks
+Queequeg slices with the machete
+Queequeg slices the soup
+Queequeg slices the hammer
+Queequeg slices the coconut with the machete
+Queequeg slices the coconut
+Queequeg slices the bucket
+Queequeg slices
+Queequeg empties with the spoon
+Queequeg empties the bucket with the spoon
+Queequeg empties the bucket with the pump
+Queequeg empties the bucket
+Queequeg empties
+Queequeg eats with the spoon
+Queequeg eats the soup with the spoon
+Queequeg eats the soup
+Queequeg eats
+Queequeg breaks with the hammer
+Queequeg breaks the window with the soup
+Queequeg breaks the window with the machete
+Queequeg breaks the window with the hammer
+Queequeg breaks the window
+Queequeg breaks the soup
+Queequeg breaks the hammer
+Queequeg breaks

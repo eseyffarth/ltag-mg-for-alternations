@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mcgrammar>
+<lemmas>
+  <lemma name="with" cat="p">
+    <anchor tree_id="family[@name=InstrumentWithConstruction]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameWith"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="the" cat="det">
+    <anchor tree_id="family[@name=Determiner]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDummy"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="hammer" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameHammer"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="window" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameWindow"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="machete" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameMachete"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="coconut" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameCoconut"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="pump" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FramePump"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="bucket" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameBucket"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="spoon" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameSpoon"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="soup" cat="n">
+    <anchor tree_id="family[@name=Commonnoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameSoup"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="daggoo" cat="n">
+    <anchor tree_id="family[@name=Propernoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameDaggoo"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="queequeg" cat="n">
+    <anchor tree_id="family[@name=Propernoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameQueequeg"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="tashtego" cat="n">
+    <anchor tree_id="family[@name=Propernoun]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameTashtego"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="break" cat="v">
+    <anchor tree_id="family[@name=RegularVerbFamily]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameBreak"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="slice" cat="v">
+    <anchor tree_id="family[@name=RegularTransitiveVerbFamily]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameSlice"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="empty" cat="v">
+    <anchor tree_id="family[@name=RegularVerbFamily]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameEmpty"/>
+      </sem>
+    </anchor>
+  </lemma>
+  <lemma name="eat" cat="v">
+    <anchor tree_id="family[@name=RegularVerbFamily]">
+      <filter>
+        <fs>
+        </fs>
+      </filter>
+      <sem>
+        <semclass name="FrameEat"/>
+      </sem>
+    </anchor>
+  </lemma>
+</lemmas>
+</mcgrammar>

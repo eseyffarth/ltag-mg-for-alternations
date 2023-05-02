@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE grammar SYSTEM "tulipa-parses.dtd,xml">
+<grammar>
+  <entry name="Queequeg pushed Tashtego_0_derivedTree">
+    <trace>
+      <class>Propernoun_57--Queequeg1--0</class>
+      <class>Propernoun_57--Tashtego3--0</class>
+      <class>RegularTransitiveVerbFamily_8--pushed2--0</class>
+    </trace>
+    <family/>
+    <tree>
+      <node type="std">
+        <narg>
+          <fs>
+            <f name="cat">
+              <sym value="s"/>
+            </f>
+          </fs>
+        </narg>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="np"/>
+              </f>
+              <f name="i">
+                <sym varname="B0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs coref="E0">
+                <ctype/>
+                <f name="cat">
+                  <sym value="n"/>
+                </f>
+                <f name="i">
+                  <sym varname="B0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="lex" value="Queequeg">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="Queequeg"/>
+                  </f>
+                </fs>
+              </narg>
+            </node>
+          </node>
+        </node>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="vp"/>
+              </f>
+              <f name="e">
+                <sym varname="D0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs coref="A0">
+                <ctype/>
+                <f name="cat">
+                  <sym value="v"/>
+                </f>
+                <f name="e">
+                  <sym varname="D0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="lex" value="pushed">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="pushed"/>
+                  </f>
+                </fs>
+              </narg>
+            </node>
+          </node>
+          <node type="std">
+            <narg>
+              <fs>
+                <f name="cat">
+                  <sym value="np"/>
+                </f>
+                <f name="i">
+                  <sym varname="C0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="std">
+              <narg>
+                <fs coref="F0">
+                  <ctype/>
+                  <f name="cat">
+                    <sym value="n"/>
+                  </f>
+                  <f name="i">
+                    <sym varname="C0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="lex" value="Tashtego">
+                <narg>
+                  <fs>
+                    <f name="cat">
+                      <sym value="Tashtego"/>
+                    </f>
+                  </fs>
+                </narg>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </tree>
+    <frame>
+      <fs coref="D0">
+        <ctype>
+          <type val="activity"/>
+          <type val="transitive_action"/>
+          <type val="simple_event"/>
+          <type val="event"/>
+          <type val="pushing"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="B0">
+            <ctype>
+              <type val="person"/>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+            <f name="name">
+              <sym value="Queequeg"/>
+            </f>
+          </fs>
+        </f>
+        <f name="agent">
+          <sym varname="B0"/>
+        </f>
+        <f name="theme">
+          <sym varname="C0"/>
+        </f>
+        <f name="undergoer">
+          <fs coref="C0">
+            <ctype>
+              <type val="person"/>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+            <f name="name">
+              <sym value="Tashtego"/>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+  </entry>
+</grammar>

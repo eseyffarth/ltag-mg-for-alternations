@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE grammar SYSTEM "tulipa-parses.dtd,xml">
+<grammar>
+  <entry name="Queequeg laughed Daggoo to Tashtego_0_derivedTree">
+    <trace>
+      <class>Propernoun_31--Queequeg1--0</class>
+      <class>Propernoun_31--Daggoo3--0</class>
+      <class>Propernoun_31--Tashtego5--0</class>
+      <class>DirectedMotion_10--to4--1</class>
+      <class>RegularIntransitiveVerbFamily_3--laughed2--1</class>
+    </trace>
+    <family/>
+    <tree>
+      <node type="std">
+        <narg>
+          <fs>
+            <f name="cat">
+              <sym value="s"/>
+            </f>
+          </fs>
+        </narg>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="np"/>
+              </f>
+              <f name="i">
+                <sym varname="A0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs coref="I0">
+                <ctype/>
+                <f name="cat">
+                  <sym value="n"/>
+                </f>
+                <f name="i">
+                  <sym varname="A0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="lex" value="Queequeg">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="Queequeg"/>
+                  </f>
+                </fs>
+              </narg>
+            </node>
+          </node>
+        </node>
+        <node type="std">
+          <narg>
+            <fs>
+              <f name="cat">
+                <sym value="vp"/>
+              </f>
+              <f name="e">
+                <sym varname="B0"/>
+              </f>
+            </fs>
+          </narg>
+          <node type="std">
+            <narg>
+              <fs>
+                <f name="cat">
+                  <sym value="vp"/>
+                </f>
+                <f name="e">
+                  <sym varname="B0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="std">
+              <narg>
+                <fs coref="L0">
+                  <ctype/>
+                  <f name="cat">
+                    <sym value="v"/>
+                  </f>
+                  <f name="e">
+                    <sym varname="B0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="lex" value="laughed">
+                <narg>
+                  <fs>
+                    <f name="cat">
+                      <sym value="laughed"/>
+                    </f>
+                  </fs>
+                </narg>
+              </node>
+            </node>
+          </node>
+          <node type="std">
+            <narg>
+              <fs>
+                <f name="cat">
+                  <sym value="np"/>
+                </f>
+                <f name="i">
+                  <sym varname="D0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="std">
+              <narg>
+                <fs coref="G0">
+                  <ctype/>
+                  <f name="cat">
+                    <sym value="n"/>
+                  </f>
+                  <f name="i">
+                    <sym varname="D0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="lex" value="Daggoo">
+                <narg>
+                  <fs>
+                    <f name="cat">
+                      <sym value="Daggoo"/>
+                    </f>
+                  </fs>
+                </narg>
+              </node>
+            </node>
+          </node>
+          <node type="std">
+            <narg>
+              <fs>
+                <f name="cat">
+                  <sym value="pp"/>
+                </f>
+                <f name="e">
+                  <sym varname="F0"/>
+                </f>
+              </fs>
+            </narg>
+            <node type="std">
+              <narg>
+                <fs coref="K0">
+                  <ctype/>
+                  <f name="cat">
+                    <sym value="p"/>
+                  </f>
+                  <f name="e">
+                    <sym varname="F0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="lex" value="to">
+                <narg>
+                  <fs>
+                    <f name="cat">
+                      <sym value="to"/>
+                    </f>
+                  </fs>
+                </narg>
+              </node>
+            </node>
+            <node type="std">
+              <narg>
+                <fs>
+                  <f name="cat">
+                    <sym value="np"/>
+                  </f>
+                  <f name="i">
+                    <sym varname="C0"/>
+                  </f>
+                </fs>
+              </narg>
+              <node type="std">
+                <narg>
+                  <fs coref="J0">
+                    <ctype/>
+                    <f name="cat">
+                      <sym value="n"/>
+                    </f>
+                    <f name="i">
+                      <sym varname="C0"/>
+                    </f>
+                  </fs>
+                </narg>
+                <node type="lex" value="Tashtego">
+                  <narg>
+                    <fs>
+                      <f name="cat">
+                        <sym value="Tashtego"/>
+                      </f>
+                    </fs>
+                  </narg>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </tree>
+    <frame>
+      <fs coref="M0">
+        <ctype>
+          <type val="causation"/>
+          <type val="complex_event"/>
+          <type val="event"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="A0">
+            <ctype>
+              <type val="person"/>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+            <f name="name">
+              <sym value="Queequeg"/>
+            </f>
+          </fs>
+        </f>
+        <f name="cause">
+          <fs coref="B0">
+            <ctype>
+              <type val="intransitive_action"/>
+              <type val="activity"/>
+              <type val="simple_event"/>
+              <type val="event"/>
+              <type val="laughing"/>
+            </ctype>
+            <f name="actor">
+              <sym varname="A0"/>
+            </f>
+            <f name="agent">
+              <sym varname="A0"/>
+            </f>
+          </fs>
+        </f>
+        <f name="effect">
+          <fs coref="F0">
+            <ctype>
+              <type val="translocation"/>
+              <type val="simple_event"/>
+              <type val="event"/>
+            </ctype>
+            <f name="mover">
+              <sym varname="D0"/>
+            </f>
+            <f name="path">
+              <fs coref="E0">
+                <ctype>
+                  <type val="path"/>
+                </ctype>
+                <f name="landmark">
+                  <fs coref="C0">
+                    <ctype>
+                      <type val="person"/>
+                      <type val="animate"/>
+                      <type val="entity"/>
+                    </ctype>
+                    <f name="name">
+                      <sym value="Tashtego"/>
+                    </f>
+                  </fs>
+                </f>
+                <f name="trajectory">
+                  <sym value="to"/>
+                </f>
+              </fs>
+            </f>
+            <f name="undergoer">
+              <sym varname="D0"/>
+            </f>
+          </fs>
+        </f>
+        <f name="undergoer">
+          <fs coref="D0">
+            <ctype>
+              <type val="person"/>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+            <f name="name">
+              <sym value="Daggoo"/>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+  </entry>
+</grammar>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mcgrammar>
+<morphs>
+  <morph lex="with">
+    <lemmaref cat="p" name="with">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="the">
+    <lemmaref cat="det" name="the">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="hammer">
+    <lemmaref cat="n" name="hammer">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="window">
+    <lemmaref cat="n" name="window">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="machete">
+    <lemmaref cat="n" name="machete">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="coconut">
+    <lemmaref cat="n" name="coconut">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="pump">
+    <lemmaref cat="n" name="pump">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="bucket">
+    <lemmaref cat="n" name="bucket">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="spoon">
+    <lemmaref cat="n" name="spoon">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="soup">
+    <lemmaref cat="n" name="soup">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Daggoo">
+    <lemmaref cat="n" name="daggoo">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Queequeg">
+    <lemmaref cat="n" name="queequeg">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Tashtego">
+    <lemmaref cat="n" name="tashtego">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="break">
+    <lemmaref cat="v" name="break">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="breaks">
+    <lemmaref cat="v" name="break">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="broke">
+    <lemmaref cat="v" name="break">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="slice">
+    <lemmaref cat="v" name="slice">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="slices">
+    <lemmaref cat="v" name="slice">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="sliced">
+    <lemmaref cat="v" name="slice">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="empty">
+    <lemmaref cat="v" name="empty">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="empties">
+    <lemmaref cat="v" name="empty">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="emptied">
+    <lemmaref cat="v" name="empty">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="eat">
+    <lemmaref cat="v" name="eat">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="eats">
+    <lemmaref cat="v" name="eat">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="ate">
+    <lemmaref cat="v" name="eat">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+</morphs>
+</mcgrammar>

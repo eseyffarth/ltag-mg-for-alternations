@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<mcgrammar>
+<morphs>
+  <morph lex="into">
+    <lemmaref cat="p" name="into">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="from">
+    <lemmaref cat="p" name="from">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="over">
+    <lemmaref cat="p" name="over">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="to">
+    <lemmaref cat="p" name="to">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="the">
+    <lemmaref cat="det" name="the">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="lock">
+    <lemmaref cat="n" name="lock">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="key">
+    <lemmaref cat="n" name="key">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="fence">
+    <lemmaref cat="n" name="fence">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="horse">
+    <lemmaref cat="n" name="horse">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Daggoo">
+    <lemmaref cat="n" name="daggoo">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Queequeg">
+    <lemmaref cat="n" name="queequeg">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="Tashtego">
+    <lemmaref cat="n" name="tashtego">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="jump">
+    <lemmaref cat="v" name="jump">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="jumps">
+    <lemmaref cat="v" name="jump">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="jumped">
+    <lemmaref cat="v" name="jump">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="push">
+    <lemmaref cat="v" name="push">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="pushes">
+    <lemmaref cat="v" name="push">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="pushed">
+    <lemmaref cat="v" name="push">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="insert">
+    <lemmaref cat="v" name="insert">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="inserts">
+    <lemmaref cat="v" name="insert">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="inserted">
+    <lemmaref cat="v" name="insert">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="dance">
+    <lemmaref cat="v" name="dance">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="dances">
+    <lemmaref cat="v" name="dance">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="danced">
+    <lemmaref cat="v" name="dance">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="laugh">
+    <lemmaref cat="v" name="laugh">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="laughs">
+    <lemmaref cat="v" name="laugh">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+  <morph lex="laughed">
+    <lemmaref cat="v" name="laugh">
+      <fs>
+      </fs>
+    </lemmaref>
+  </morph>
+</morphs>
+</mcgrammar>

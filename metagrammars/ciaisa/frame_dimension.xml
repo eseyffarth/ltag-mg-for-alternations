@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<grammar>
+  <entry name="FrameWith_0">
+    <family>FrameWith</family>
+    <trace>
+      <class>FrameWith</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+          <type val="event"/>
+          <type val="simple_event"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="agent">
+          <fs coref="@Frame2"/>
+        </f>
+        <f name="instrument">
+          <sym varname="@V3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDummy_1">
+    <family>FrameDummy</family>
+    <trace>
+      <class>FrameDummy</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameHammer_2">
+    <family>FrameHammer</family>
+    <trace>
+      <class>FrameHammer</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="hammer"/>
+          <type val="inanimate"/>
+          <type val="inedible"/>
+          <type val="physical_object"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameWindow_3">
+    <family>FrameWindow</family>
+    <trace>
+      <class>FrameWindow</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="inedible"/>
+          <type val="physical_object"/>
+          <type val="window"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameMachete_4">
+    <family>FrameMachete</family>
+    <trace>
+      <class>FrameMachete</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="inedible"/>
+          <type val="machete"/>
+          <type val="physical_object"/>
+          <type val="sharp_object"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameCoconut_5">
+    <family>FrameCoconut</family>
+    <trace>
+      <class>FrameCoconut</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="coconut"/>
+          <type val="edible"/>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="physical_object"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FramePump_6">
+    <family>FramePump</family>
+    <trace>
+      <class>FramePump</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="inedible"/>
+          <type val="physical_object"/>
+          <type val="pump"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameBucket_7">
+    <family>FrameBucket</family>
+    <trace>
+      <class>FrameBucket</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="bucket"/>
+          <type val="container"/>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="inedible"/>
+          <type val="physical_object"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSpoon_8">
+    <family>FrameSpoon</family>
+    <trace>
+      <class>FrameSpoon</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="inedible"/>
+          <type val="physical_object"/>
+          <type val="spoon"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSoup_9">
+    <family>FrameSoup</family>
+    <trace>
+      <class>FrameSoup</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="edible"/>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="physical_object"/>
+          <type val="soup"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDaggoo_10">
+    <family>FrameDaggoo</family>
+    <trace>
+      <class>FrameDaggoo</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="animate"/>
+          <type val="entity"/>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Daggoo"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameQueequeg_11">
+    <family>FrameQueequeg</family>
+    <trace>
+      <class>FrameQueequeg</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="animate"/>
+          <type val="entity"/>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Queequeg"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameTashtego_12">
+    <family>FrameTashtego</family>
+    <trace>
+      <class>FrameTashtego</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="animate"/>
+          <type val="entity"/>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Tashtego"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameBreak_13">
+    <family>FrameBreak</family>
+    <trace>
+      <class>FrameBreak</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="becoming_broken"/>
+          <type val="change_of_state"/>
+          <type val="event"/>
+          <type val="simple_event"/>
+        </ctype>
+        <f name="result">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="being_broken"/>
+              <type val="state"/>
+            </ctype>
+            <f name="theme">
+              <fs coref="@Frame3">
+                <ctype>
+                  <type val="entity"/>
+                  <type val="inanimate"/>
+                  <type val="physical_object"/>
+                  <type val="solid"/>
+                </ctype>
+              </fs>
+            </f>
+          </fs>
+        </f>
+        <f name="theme">
+          <fs coref="@Frame3"/>
+        </f>
+        <f name="undergoer">
+          <fs coref="@Frame3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSlice_14">
+    <family>FrameSlice</family>
+    <trace>
+      <class>FrameSlice</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="causation"/>
+          <type val="complex_event"/>
+          <type val="event"/>
+          <type val="slicing"/>
+        </ctype>
+        <f name="cause">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="event"/>
+            </ctype>
+            <f name="instrument">
+              <fs coref="@Frame3">
+                <ctype>
+                  <type val="entity"/>
+                  <type val="inanimate"/>
+                  <type val="inedible"/>
+                  <type val="physical_object"/>
+                  <type val="sharp_object"/>
+                </ctype>
+              </fs>
+            </f>
+            <f name="undergoer">
+              <fs coref="@Frame4">
+                <ctype>
+                  <type val="entity"/>
+                  <type val="inanimate"/>
+                  <type val="physical_object"/>
+                  <type val="solid"/>
+                </ctype>
+              </fs>
+            </f>
+          </fs>
+        </f>
+        <f name="effect">
+          <fs coref="@Frame5">
+            <ctype>
+              <type val="change_of_state"/>
+              <type val="event"/>
+              <type val="simple_event"/>
+            </ctype>
+            <f name="result">
+              <fs coref="@Frame6">
+                <ctype>
+                  <type val="being_sliced"/>
+                  <type val="state"/>
+                </ctype>
+                <f name="theme">
+                  <fs coref="@Frame4"/>
+                </f>
+              </fs>
+            </f>
+            <f name="theme">
+              <fs coref="@Frame4"/>
+            </f>
+            <f name="undergoer">
+              <fs coref="@Frame4"/>
+            </f>
+          </fs>
+        </f>
+        <f name="undergoer">
+          <fs coref="@Frame4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameEmpty_15">
+    <family>FrameEmpty</family>
+    <trace>
+      <class>FrameEmpty</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="becoming_empty"/>
+          <type val="change_of_state"/>
+          <type val="event"/>
+          <type val="simple_event"/>
+        </ctype>
+        <f name="result">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="being_empty"/>
+              <type val="state"/>
+            </ctype>
+            <f name="theme">
+              <fs coref="@Frame3">
+                <ctype>
+                  <type val="container"/>
+                  <type val="entity"/>
+                  <type val="inanimate"/>
+                  <type val="inedible"/>
+                  <type val="physical_object"/>
+                </ctype>
+              </fs>
+            </f>
+          </fs>
+        </f>
+        <f name="theme">
+          <fs coref="@Frame3"/>
+        </f>
+        <f name="undergoer">
+          <fs coref="@Frame3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameEat_16">
+    <family>FrameEat</family>
+    <trace>
+      <class>FrameEat</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+          <type val="eating"/>
+          <type val="event"/>
+          <type val="simple_event"/>
+          <type val="transitive_action"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="agent">
+          <fs coref="@Frame2"/>
+        </f>
+        <f name="theme">
+          <fs coref="@Frame3">
+            <ctype>
+              <type val="edible"/>
+              <type val="entity"/>
+              <type val="inanimate"/>
+              <type val="physical_object"/>
+            </ctype>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+</grammar>

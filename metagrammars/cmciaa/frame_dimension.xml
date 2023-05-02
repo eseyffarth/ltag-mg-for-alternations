@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<grammar>
+  <entry name="FrameInto_0">
+    <family>FrameInto</family>
+    <trace>
+      <class>FrameInto</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="event"/>
+          <type val="simple_event"/>
+          <type val="translocation"/>
+        </ctype>
+        <f name="path">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="path"/>
+            </ctype>
+            <f name="landmark">
+              <sym varname="@V3"/>
+            </f>
+            <f name="trajectory">
+              <sym value="into"/>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameFrom_1">
+    <family>FrameFrom</family>
+    <trace>
+      <class>FrameFrom</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="event"/>
+          <type val="simple_event"/>
+          <type val="translocation"/>
+        </ctype>
+        <f name="path">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="path"/>
+            </ctype>
+            <f name="landmark">
+              <sym varname="@V3"/>
+            </f>
+            <f name="trajectory">
+              <sym value="from"/>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameOver_2">
+    <family>FrameOver</family>
+    <trace>
+      <class>FrameOver</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="event"/>
+          <type val="simple_event"/>
+          <type val="translocation"/>
+        </ctype>
+        <f name="path">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="path"/>
+            </ctype>
+            <f name="landmark">
+              <sym varname="@V3"/>
+            </f>
+            <f name="trajectory">
+              <sym value="over"/>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameTo_3">
+    <family>FrameTo</family>
+    <trace>
+      <class>FrameTo</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="event"/>
+          <type val="simple_event"/>
+          <type val="translocation"/>
+        </ctype>
+        <f name="path">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="path"/>
+            </ctype>
+            <f name="landmark">
+              <sym varname="@V3"/>
+            </f>
+            <f name="trajectory">
+              <sym value="to"/>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDummy_4">
+    <family>FrameDummy</family>
+    <trace>
+      <class>FrameDummy</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameLock_5">
+    <family>FrameLock</family>
+    <trace>
+      <class>FrameLock</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="lock"/>
+          <type val="physical_object"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameKey_6">
+    <family>FrameKey</family>
+    <trace>
+      <class>FrameKey</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="inanimate"/>
+          <type val="key"/>
+          <type val="physical_object"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameFence_7">
+    <family>FrameFence</family>
+    <trace>
+      <class>FrameFence</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="entity"/>
+          <type val="fence"/>
+          <type val="inanimate"/>
+          <type val="physical_object"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameHorse_8">
+    <family>FrameHorse</family>
+    <trace>
+      <class>FrameHorse</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="animal"/>
+          <type val="animate"/>
+          <type val="entity"/>
+          <type val="horse"/>
+        </ctype>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDaggoo_9">
+    <family>FrameDaggoo</family>
+    <trace>
+      <class>FrameDaggoo</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="animate"/>
+          <type val="entity"/>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Daggoo"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameQueequeg_10">
+    <family>FrameQueequeg</family>
+    <trace>
+      <class>FrameQueequeg</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="animate"/>
+          <type val="entity"/>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Queequeg"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameTashtego_11">
+    <family>FrameTashtego</family>
+    <trace>
+      <class>FrameTashtego</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="animate"/>
+          <type val="entity"/>
+          <type val="person"/>
+        </ctype>
+        <f name="name">
+          <sym value="Tashtego"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="i">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameJump_12">
+    <family>FrameJump</family>
+    <trace>
+      <class>FrameJump</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+          <type val="event"/>
+          <type val="intransitive_action"/>
+          <type val="jumping"/>
+          <type val="simple_event"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="agent">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FramePush_13">
+    <family>FramePush</family>
+    <trace>
+      <class>FramePush</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+          <type val="event"/>
+          <type val="pushing"/>
+          <type val="simple_event"/>
+          <type val="transitive_action"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="agent">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameInsert_14">
+    <family>FrameInsert</family>
+    <trace>
+      <class>FrameInsert</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="causation"/>
+          <type val="complex_event"/>
+          <type val="event"/>
+          <type val="inserting"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="cause">
+          <fs coref="@Frame3">
+            <ctype>
+              <type val="activity"/>
+              <type val="event"/>
+              <type val="simple_event"/>
+              <type val="transitive_action"/>
+            </ctype>
+            <f name="actor">
+              <fs coref="@Frame2"/>
+            </f>
+            <f name="agent">
+              <fs coref="@Frame2"/>
+            </f>
+            <f name="undergoer">
+              <sym varname="@V4"/>
+            </f>
+          </fs>
+        </f>
+        <f name="effect">
+          <fs coref="@Frame5">
+            <ctype>
+              <type val="event"/>
+              <type val="simple_event"/>
+              <type val="translocation"/>
+            </ctype>
+            <f name="mover">
+              <sym varname="@V4"/>
+            </f>
+            <f name="path">
+              <fs coref="@Frame6">
+                <ctype>
+                  <type val="path"/>
+                </ctype>
+                <f name="landmark">
+                  <sym varname="@V7"/>
+                </f>
+                <f name="trajectory">
+                  <sym value="into"/>
+                </f>
+              </fs>
+            </f>
+            <f name="undergoer">
+              <sym varname="@V4"/>
+            </f>
+          </fs>
+        </f>
+        <f name="undergoer">
+          <sym varname="@V4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDance_15">
+    <family>FrameDance</family>
+    <trace>
+      <class>FrameDance</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+          <type val="dancing"/>
+          <type val="event"/>
+          <type val="intransitive_action"/>
+          <type val="simple_event"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="agent">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameLaugh_16">
+    <family>FrameLaugh</family>
+    <trace>
+      <class>FrameLaugh</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame1">
+        <ctype>
+          <type val="activity"/>
+          <type val="event"/>
+          <type val="intransitive_action"/>
+          <type val="laughing"/>
+          <type val="simple_event"/>
+        </ctype>
+        <f name="actor">
+          <fs coref="@Frame2">
+            <ctype>
+              <type val="animate"/>
+              <type val="entity"/>
+            </ctype>
+          </fs>
+        </f>
+        <f name="agent">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="e">
+          <fs coref="@Frame1"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+</grammar>
